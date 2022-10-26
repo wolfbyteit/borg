@@ -1,6 +1,6 @@
-FROM alpine:stable
+FROM alpine:latest
 
-RUN apk add --no-cache openssh-server borg
+RUN apk add --no-cache openssh-server borgbackup
 
 USER root
 
